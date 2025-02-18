@@ -4,15 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "db15e9e7eafef4be",
+        "id": "1a7ed75f2115cffc",
         "type": "tabs",
         "children": [
           {
-            "id": "732e1b2baa86c7fe",
+            "id": "2b8ac26ab7fe914d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "HTB/Pivoting, Tunneling, and Port Forwarding/1. Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Introduction"
             }
           }
         ]
@@ -34,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -50,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -58,14 +69,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 200
   },
   "right": {
     "id": "3df108bb9836a1fa",
@@ -81,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "-/Pasted image 20240626141457.png",
+                "file": "HTB/LINUX PRIVILEGE ESCALATION/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Kubernetes"
             }
           },
           {
@@ -98,10 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "-/Pasted image 20240626141457.png",
+                "file": "HTB/LINUX PRIVILEGE ESCALATION/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Kubernetes"
             }
           },
           {
@@ -112,7 +129,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -121,8 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "-/Pasted image 20240626141457.png"
-              }
+                "file": "HTB/LINUX PRIVILEGE ESCALATION/Kubernetes.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Kubernetes"
             }
           }
         ]
@@ -142,54 +163,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "63ba012a6b9d1c1b",
+  "active": "2b8ac26ab7fe914d",
   "lastOpenFiles": [
-    "HTB/Password attacks/Pass the Ticket (PtT) from Windows.md",
-    "HTB/Password attacks/Attacking Active Directory & NTDS.dit.md",
-    "HTB/Password attacks/Theory of Protection.md",
-    "HTB/Password attacks/Password Reuse - Default Passwords.md",
-    "HTB/Password attacks/Password Mutations.md",
-    "HTB/Password attacks/Passwd, Shadow & Opasswd.md",
-    "HTB/Password attacks/Pass the Hash (PtH).md",
-    "HTB/Password attacks/Network Services.md",
-    "HTB/Password attacks/Credential Storage.md",
-    "-/Pasted image 20240701140452.png",
-    "-/Pasted image 20240701134255.png",
-    "HTB/Password attacks/Credential Hunting in Linux.md",
-    "HTB/Password attacks/Credential Hunting in Windows.md",
-    "HTB/File transfers/Windows file transfers.md",
-    "HTB/File transfers/Protected File transfers.md",
-    "HTB/File transfers/Transferring Files with Code.md",
-    "HTB/File transfers/Living off The Land.md",
-    "HTB/File transfers/Miscellaneous File Transfer Methods.md",
-    "HTB/File transfers/Linux file Transfer.md",
-    "HTB/File transfers/Detection.md",
-    "-/Pasted image 20240626141457.png",
-    "Journal-Blog/journal/Goals for end of July 2024.md",
+    "suc.pub",
+    "suc",
+    "HTB/LINUX PRIVILEGE ESCALATION/Netfilter.md",
+    "HTB/LINUX PRIVILEGE ESCALATION/Dirty Pipe.md",
+    "HTB/Pivoting, Tunneling, and Port Forwarding/1. Introduction.md",
+    "HTB/LINUX PRIVILEGE ESCALATION/Wildcard Abuse.md",
+    "HTB/Pivoting, Tunneling, and Port Forwarding",
+    "HTB/LINUX PRIVILEGE ESCALATION/Kubernetes.md",
+    "HTB/LINUX PRIVILEGE ESCALATION/Hijacking Tmux Sessions.md",
+    "HTB/Login Brute forcing/Username Brute Force.md",
+    "HTB/LINUX PRIVILEGE ESCALATION/Linux Local Privilege Escalation - Skills Assessment.md",
+    "HTB/LINUX PRIVILEGE ESCALATION/Linux Hardening.md",
+    "HTB/LINUX PRIVILEGE ESCALATION/Polkit.md",
+    "HTB/LINUX PRIVILEGE ESCALATION/Sudo Rights Abuse.md",
+    "HTB/LINUX PRIVILEGE ESCALATION/Sudo.md",
+    "HTB/LINUX PRIVILEGE ESCALATION/Python Library Hijacking.md",
+    "HTB/LINUX PRIVILEGE ESCALATION/Shared Object Hijacking.md",
+    "HTB/LINUX PRIVILEGE ESCALATION/Shared Libraries.md",
+    "HTB/LINUX PRIVILEGE ESCALATION/Kernel Exploits.md",
+    "Untitled.md",
+    "HTB/LINUX PRIVILEGE ESCALATION/Path Abuse.md",
+    "HTB/LINUX PRIVILEGE ESCALATION/Miscellaneous Techniques",
+    "HTB/LINUX PRIVILEGE ESCALATION/passive traffic capture & weak NFS.md",
+    "Untitled",
+    "HTB/LINUX PRIVILEGE ESCALATION/Logrotate.md",
+    "HTB/LINUX PRIVILEGE ESCALATION/DOCKER!.md",
+    "HTB/LINUX PRIVILEGE ESCALATION/Environment Enumeration.md",
+    "Journal-Blog/journal/Goals for.md",
     "Journal-Blog/blog/Password Attacks on AD.md",
     "Journal-Blog/blog/Local Deployment of LLM.md",
-    "HTB/Password attacks/Attacking LSASS.md",
+    "HTB/SQLMAP",
+    "-/Pasted image 20240706203422.png",
+    "HTB/Attacking WA w fuff",
+    "-/Pasted image 20240706221351.png",
+    "-/Pasted image 20240706221320.png",
+    "-/Pasted image 20240706221305.png",
+    "-/Pasted image 20240706213039.png",
+    "-/Pasted image 20240701140452.png",
+    "-/Pasted image 20240701134255.png",
+    "-/Pasted image 20240626141457.png",
     "-/Pasted image 20240513114052.png",
-    "HTB/Password attacks/Attacking SAM (security accounts manager).md",
     "-/Pasted image 20240624125348.png",
-    "Journal-Blog/blog/Guitar.md",
-    "HTB/Login Brute forcing/Personalized Wordlists.md",
-    "HTB/Login Brute forcing/Service Authentication Brute-Forcing.md",
     "HTB/LINUX PRIVILEGE ESCALATION",
     "HTB/Login Brute forcing",
-    "-/Pasted image 20240513132659.png",
-    "-/Pasted image 20240513132656.png",
-    "-/Pasted image 20240513114056.png",
-    "-/Pasted image 20240506140725.png",
     "HTB/Using web proxies",
     "Journal-Blog/journal",
-    "Journal-Blog/blog",
-    "-/Pasted image 20240416133527.png",
-    "HTB/Password attacks",
-    "HTB/Payloads and shells",
-    "N+/comptia-network-n10-008-exam-objectives-(3-0).pdf",
-    "HTB/using the metasploit framework",
-    "HTB/File transfers",
     "Untitled.canvas"
   ]
 }
